@@ -1,0 +1,62 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  src: url(../fonts/libre-franklin/LibreFranklin-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  src: url(../fonts/libre-franklin/LibreFranklin-Bold.ttf) format("truetype");
+}
+
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.arrow-right-circle {
+  top: .4rem;
+  right: .35rem;
+}
+
+.asterisk {
+  top: .2rem;
+}
+
+.body-wrapper {
+  max-width: 1366px;
+}
+
+.check-circle {
+  top: .4rem
+}
+
+.content-wrapper {
+  /*
+  Max content width is 900px and we need to account for
+  the container padding left and right of 1.5 rem
+  */
+  max-width: calc(900px + 3rem);
+}
+
+.dropdown {
+  top: 64px;
+  right: 0;
+}
+
+/* Gradient going from blue-400 to blue-600 */
+.gradient {
+  background: linear-gradient(#95bff0, #1f5a99 50%)
+}
+
+.hand-pointing-right {
+  top: 1.2rem;
+}
+
+.hero-overlay {
+  background-image: radial-gradient(circle at 70% 90%, rgba(0, 0, 0, .5), rgba(0, 0, 0, 1));
+}
